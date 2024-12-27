@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (min-width: 300px) {
+  .custom-container {
+    max-width: 1024px;
+  }
+}
+
+
+@font-face {
+  font-family: "VisbyRoundCF-Regular";
+  src: url("/font/VisbyRoundCF-Regular.otf") format("opentype");
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "VisbyRoundCF-Regular", Arial, Helvetica, sans-serif !important;
+}
+
+@keyframes blink {
+  0% {
+    border-color: rgb(69, 66, 223);
+    background-color: cyan;
+    border-width: 4px;
+  }
+  50% {
+    border-color: transparent;
+  }
+  100% {
+    border-color: rgb(69, 66, 223);
+    background-color: cyan;
+    border-width: 4px;
+  }
+}
+
+.animate-blink {
+  animation: blink 1s ease-in-out infinite;
+}
