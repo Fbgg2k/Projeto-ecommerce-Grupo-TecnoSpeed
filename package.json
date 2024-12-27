@@ -1,0 +1,25 @@
+{
+  "name": "ecommerce-service",
+  "version": "1.0.0",
+  "description": "ecommerce service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "tecnospeed",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0",
+    "nodemailer": "^6.9.16"
+  },
+  "devDependencies": {
+    "prisma": "^5.21.1"
+  }
+}
