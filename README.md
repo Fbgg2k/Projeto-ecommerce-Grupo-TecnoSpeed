@@ -73,7 +73,7 @@ O sistema é um ecommerce completo, implementado com **React** + **Vite**, utili
 5. Inicie o backend:
 
    ```bash
-   npm start
+   node index.js
    ```
 
 6. Acesse o aplicativo no seu navegador em `http://localhost:3000` (ou outra porta configurada).
