@@ -50,10 +50,9 @@ O sistema é um ecommerce completo, implementado com **React** + **Vite**, utili
    cd ecommerce
    ```
 
-2. Instale as dependências do frontend:
+2. Instale as dependências do frontend/backend:
 
    ```bash
-   cd frontend
    npm install
    ```
 
@@ -63,17 +62,16 @@ O sistema é um ecommerce completo, implementado com **React** + **Vite**, utili
    npm run dev
    ```
 
-4. Instale as dependências do backend (caso tenha um diretório separado para o backend):
-
-   ```bash
-   cd backend
-   npm install
-   ```
-
-5. Inicie o backend:
+4. Inicie o backend:
 
    ```bash
    node index.js
+   ```
+
+5. Inicie o banco de dados em formato visual com o MongoDB:
+
+   ```bash
+   npx prisma studio
    ```
 
 6. Acesse o aplicativo no seu navegador em `http://localhost:3000` (ou outra porta configurada).
